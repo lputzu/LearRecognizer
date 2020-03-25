@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/imageView_photo"
+		android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:scaleType="fitCenter"
+        android:layout_toEndOf="@+id/text2" />
+    
+	<Button
+    	android:id="@+id/back_2_camera"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:background="@android:color/transparent"
+    	android:text="RIFAI UNA FOTO"
+    	android:textColor="#2799CF" />
+	
+	<Button
+    	android:id="@+id/go_home2"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:background="@android:color/transparent"
+    	android:text="VAI ALLA HOME"
+    	android:textColor="#FF99CF" />
+
+</RelativeLayout>

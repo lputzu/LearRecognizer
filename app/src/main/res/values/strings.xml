@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LeafRecognizer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_slave">Pronto per il riconoscimento di foglie, Padrone?</string>
+    <string name="button_photo_intent">Clicca qui!</string>
+    <string name="photo_button_desc">Scatta foto</string>
+
+</resources>

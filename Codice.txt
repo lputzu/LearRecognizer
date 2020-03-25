@@ -1,0 +1,19 @@
+Il codice dell'applicazione si trova all'interno della cartella
+.\LeafRecognizer\app\src\main\java\com\example\leafrecognizer
+
+
+La classe MainActivity gestisce la home dell'applicazione.
+La classe CameraActivity si occupa della cattura dell'immagine attraverso l'uso della fotocamera.
+La classe ImageProcessActivity gestisce il processo di segmentazione, estrazione features e classificazione.
+
+
+All'interno della cartella .\ers si trova il codice che va a creare la mappa dei superpixel con l'algoritmo di Entropy Rate Superpixel.
+Il metodo execute della classe Mex_ers rende in output la mappa di superpixel.
+
+
+All'interno della cartella .\classification si trova il codice che estrae le features e che effettua la classificazione di una foglia.
+Il metodo extractFeatures della classe LeafProcessor rende in output una matrice contenente le features estratte a partire da una foglia già segmentata.
+Il metodo createDataset della classe DatasetBuilder genera un file contenente le features estratte da tutte le immagini del dataset Flavia.
+
+
+All'interno della cartella watershed si trova l'algoritmo che applica il watershed.

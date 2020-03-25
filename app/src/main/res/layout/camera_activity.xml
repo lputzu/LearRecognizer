@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.leafrecognizer.MainActivity" >
+    
+<!--      <ImageView
+        android:id="@+id/photo_button"
+        android:contentDescription="@string/photo_button_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/photobutton" />-->
+        
+        <TextView
+            android:id="@+id/prompt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:text="" />
+        
+         <com.example.leafrecognizer.DrawingView
+            android:id="@+id/drawing_surface"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.example.leafrecognizer.DrawingView>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <Button
+        android:id="@+id/start_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:text="FAI UNA FOTO!"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/datasetButton"
+        android:layout_marginBottom="100dp"
+        android:layout_above="@id/start_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:text="Crea dataset"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/test"
+        android:layout_marginBottom="100dp"
+        android:layout_above="@id/datasetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:text="TEST"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SVM Test"
+        android:id="@+id/svmTest"
+        android:layout_below="@+id/start_camera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp" />
+
+
+</RelativeLayout>
